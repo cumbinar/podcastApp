@@ -51,7 +51,7 @@
     grid-template-columns: repeat($columnas, 1fr);
 }
 
-@mixin bgimage($url, $colorDegradado){
+@mixin bgImage($url, $colorDegradado) {
     background-image: linear-gradient($colorDegradado 0%, $colorDegradado 100%), url($url);
     background-repeat: no-repeat;
     background-size: cover;
