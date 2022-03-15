@@ -15,5 +15,16 @@
 
     .contenido-header{
         margin-top: 10rem;
+        h1{
+            color: v.$blanco;
+            font-weight: normal;
+            font-size: 3.5rem;
+            @include m.tablet { 
+                font-size : 5rem;
+                max-width: 50%;
+             }
+        }
     }
+
+    
 }
