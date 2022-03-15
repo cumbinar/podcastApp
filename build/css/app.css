@@ -417,11 +417,11 @@ ul {
   }
 }
 .site-header .contenido-header {
-  margin-top: 10rem;
+  padding: 10rem 0;
 }
 @media (min-width: 1024px) {
   .site-header .contenido-header {
-    margin-top: 15rem;
+    padding: 15rem 0;
   }
 }
 .site-header .contenido-header h1 {
@@ -440,6 +440,31 @@ ul {
 @media (min-width: 1024px) {
   .site-header .contenido-header h1 {
     max-width: 40%;
+  }
+}
+
+.boton-primario {
+  background-color: #84d9bc;
+  font-size: 2rem;
+  padding: 1.2rem 4rem;
+  font-weight: normal;
+  display: block;
+  width: 100%;
+  text-align: center;
+  color: #313c4e;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  border: none;
+}
+.boton-primario:hover {
+  cursor: pointer;
+  background-color: #5dcda7;
+  color: white;
+}
+@media (min-width: 768px) {
+  .boton-primario {
+    width: auto;
+    display: inline-block;
   }
 }
 /*# sourceMappingURL=app.css.map */

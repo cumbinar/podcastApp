@@ -24,7 +24,7 @@
     background-color: $color;
     font-size: 2rem;
     padding: 1.2rem 4rem;
-    font-weight: 700;
+    font-weight: normal;
     display: block;
     width: 100%;
     text-align: center;
@@ -36,6 +36,7 @@
     &:hover {
         cursor: pointer;
         background-color: darken($color, 10);
+        color: white;
     }
 
     @include tablet {
