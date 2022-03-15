@@ -405,4 +405,7 @@ ul {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.site-header .logo {
+  max-width: 20rem;
+}
 /*# sourceMappingURL=app.css.map */
