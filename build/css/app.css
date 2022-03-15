@@ -409,5 +409,14 @@ ul {
 }
 .site-header .logo {
   max-width: 20rem;
+  margin: 0 auto;
+}
+@media (min-width: 768px) {
+  .site-header .logo {
+    margin: 0;
+  }
+}
+.site-header .contenido-header {
+  margin-top: 10rem;
 }
 /*# sourceMappingURL=app.css.map */
