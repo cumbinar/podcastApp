@@ -3,6 +3,8 @@
 
 .site-header{
     @include m.bgImage('../img/header.jpg', v.$secundarioOpacity);
+    padding: 5rem 0;
+    
     .logo{
         max-width: 20rem;
     }

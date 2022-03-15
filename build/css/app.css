@@ -404,6 +404,8 @@ ul {
   background-image: linear-gradient(rgba(57, 70, 89, 0.7) 0%, rgba(57, 70, 89, 0.7) 100%), url("../img/header.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: top center;
+  padding: 5rem 0;
 }
 .site-header .logo {
   max-width: 20rem;
