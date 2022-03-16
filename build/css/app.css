@@ -454,7 +454,7 @@ ul {
   color: #313c4e;
   text-decoration: none;
   transition: background-color 0.3s ease;
-  border: none;
+  border: 1px solid #09a8f1;
 }
 .boton-primario:hover {
   cursor: pointer;
