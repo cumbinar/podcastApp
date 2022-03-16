@@ -391,14 +391,23 @@ h1 {
 
 h2 {
   font-size: 3.6 rem;
+  display: inline-block;
+  margin-top: 5rem;
+  width: 100%;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  h2 {
+    margin-top: 0;
+  }
 }
 h2::after {
   content: "";
   background-color: #84d9bc;
   height: 1rem;
-  width: 100%;
+  width: 40%;
   display: block;
-  margin: -1.4rem;
+  margin: -1.4rem auto;
 }
 
 h3 {
