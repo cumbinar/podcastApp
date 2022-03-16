@@ -400,6 +400,15 @@ ul {
   list-style: none;
 }
 
+.seccion {
+  padding: 3rem 0;
+}
+@media (min-width: 768px) {
+  .seccion {
+    padding: 8rem 0;
+  }
+}
+
 .site-header {
   background-image: linear-gradient(rgba(57, 70, 89, 0.7) 0%, rgba(57, 70, 89, 0.7) 100%), url("../img/header.jpg");
   background-repeat: no-repeat;
@@ -440,6 +449,15 @@ ul {
 @media (min-width: 1024px) {
   .site-header .contenido-header h1 {
     max-width: 40%;
+  }
+}
+
+@media (min-width: 768px) {
+  .crea-grid {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
   }
 }
 
