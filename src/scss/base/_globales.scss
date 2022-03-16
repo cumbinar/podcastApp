@@ -39,6 +39,18 @@ h1, h2, h3 {
 h1 {
     font-size: 4rem;
 }
+
+h2{
+    font-size: 3.6 rem;
+    &::after{
+        content: '';
+        background-color: v.$primario;
+        height: 1rem;
+        width: 100%;
+        display: block;
+        margin: -1.4rem;
+    }
+}
 h3 {
     font-size: 2.8rem;
     text-align: center;
