@@ -3,4 +3,18 @@
 
 .beneficios{
     background-color: v.$primario;
+
+    .grid-beneficios{
+        @include m.tablet { 
+            @include m.grid (5, 4rem)
+         }
+    }
+
+    .contenido-beneficios{
+        grid-column: 1 / 4;
+    }
+
+    .imagen{
+        grid-column: 4 / 6;
+    }
 }

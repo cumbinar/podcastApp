@@ -485,6 +485,19 @@ ul {
 .beneficios {
   background-color: #84d9bc;
 }
+@media (min-width: 768px) {
+  .beneficios .grid-beneficios {
+    display: grid;
+    gap: 4rem;
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+.beneficios .contenido-beneficios {
+  grid-column: 1/4;
+}
+.beneficios .imagen {
+  grid-column: 4/6;
+}
 
 .boton-primario {
   background-color: #84d9bc;
