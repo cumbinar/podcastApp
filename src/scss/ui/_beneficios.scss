@@ -6,15 +6,24 @@
 
     .grid-beneficios{
         @include m.tablet { 
-            @include m.grid (5, 4rem)
+            @include m.grid (5, 4rem);
+             align-items: center;
          }
     }
 
     .contenido-beneficios{
         grid-column: 1 / 4;
+       
     }
 
     .imagen{
         grid-column: 4 / 6;
+        width: 80%;
+
+        :hover{
+            transform: rotate(4deg) scale(1.1);
+            transition-property: rotate scale;
+            transition-duration: 300ms;
+        }
     }
 }

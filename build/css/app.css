@@ -490,6 +490,7 @@ ul {
     display: grid;
     gap: 4rem;
     grid-template-columns: repeat(5, 1fr);
+    align-items: center;
   }
 }
 .beneficios .contenido-beneficios {
@@ -497,6 +498,12 @@ ul {
 }
 .beneficios .imagen {
   grid-column: 4/6;
+  width: 80%;
+}
+.beneficios .imagen :hover {
+  transform: rotate(4deg) scale(1.1);
+  transition-property: rotate scale;
+  transition-duration: 300ms;
 }
 
 .boton-primario {
