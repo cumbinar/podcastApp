@@ -482,6 +482,10 @@ ul {
   }
 }
 
+.beneficios {
+  background-color: #84d9bc;
+}
+
 .boton-primario {
   background-color: #84d9bc;
   font-size: 2rem;
