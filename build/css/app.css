@@ -527,6 +527,29 @@ ul {
   transition-duration: 300ms;
 }
 
+.estadisticas h2 {
+  font-size: 3.6 rem;
+  display: inline-block;
+  margin-top: 5rem;
+  color: #313c4e;
+  width: 100%;
+  text-align: center;
+  width: 90%;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .estadisticas h2 {
+    margin-top: 0;
+  }
+}
+.estadisticas h2::after {
+  content: "";
+  background-color: #84d9bc;
+  height: 0.2rem;
+  display: block;
+  margin: -1.4rem auto;
+}
+
 .boton-primario {
   background-color: #84d9bc;
   font-size: 2rem;
