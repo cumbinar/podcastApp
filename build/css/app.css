@@ -476,7 +476,7 @@ ul {
 .crea-grid h2::after {
   content: "";
   background-color: #84d9bc;
-  height: 0.5rem;
+  height: 0.2rem;
   display: block;
   margin: -1.4rem auto;
 }
@@ -513,7 +513,7 @@ ul {
 .beneficios .contenido-beneficios h2::after {
   content: "";
   background-color: #FFFFFF;
-  height: 0.5rem;
+  height: 0.2rem;
   display: block;
   margin: -1.4rem auto;
 }
