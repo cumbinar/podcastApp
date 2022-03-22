@@ -534,7 +534,6 @@ ul {
   color: #313c4e;
   width: 100%;
   text-align: center;
-  width: 90%;
   text-align: center;
 }
 @media (min-width: 768px) {
@@ -548,6 +547,9 @@ ul {
   height: 0.2rem;
   display: block;
   margin: -1.4rem auto;
+}
+.estadisticas p {
+  color: blueviolet;
 }
 
 .boton-primario {

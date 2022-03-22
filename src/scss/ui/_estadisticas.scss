@@ -4,7 +4,10 @@
 .estadisticas{
     h2{
          @include m.headingBorder( v.$secundario, v.$primario );
-          width: 90%;
           text-align: center;
+    }
+
+    p{
+        color: blueviolet;
     }
 }
