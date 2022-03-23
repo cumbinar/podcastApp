@@ -552,6 +552,30 @@ ul {
   color: blueviolet;
 }
 
+.planes {
+  background-color: #313c4e;
+}
+.planes h2 {
+  font-size: 3.6 rem;
+  display: inline-block;
+  margin-top: 5rem;
+  color: #FFFFFF;
+  width: 100%;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .planes h2 {
+    margin-top: 0;
+  }
+}
+.planes h2::after {
+  content: "";
+  background-color: #84d9bc;
+  height: 0.2rem;
+  display: block;
+  margin: -1.4rem auto;
+}
+
 .boton-primario {
   background-color: #84d9bc;
   font-size: 2rem;
