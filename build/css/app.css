@@ -575,6 +575,27 @@ ul {
   display: block;
   margin: -1.4rem auto;
 }
+.planes .descripcion {
+  color: #FFFFFF;
+}
+
+.nuestros-planes {
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 768px) {
+  .nuestros-planes {
+    flex-direction: row;
+  }
+}
+.nuestros-planes .plan.negocio {
+  order: -1;
+}
+@media (min-width: 768px) {
+  .nuestros-planes .plan.negocio {
+    order: unset;
+  }
+}
 
 .boton-primario {
   background-color: #84d9bc;
