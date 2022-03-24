@@ -21,7 +21,9 @@
      }
 
     .plan{
-      
+      h3{
+          color: red;
+      }
         &.negocio{
             order: -1;
 
