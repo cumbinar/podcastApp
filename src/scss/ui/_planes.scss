@@ -21,9 +21,9 @@
      }
 
     .plan{
-      h3{
-          color: red;
-      }
+        
+        flex-grow: 1;
+        background-color: v.$blanco;
         &.negocio{
             order: -1;
 

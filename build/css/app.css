@@ -588,8 +588,9 @@ ul {
     flex-direction: row;
   }
 }
-.nuestros-planes .plan h3 {
-  color: red;
+.nuestros-planes .plan {
+  flex-grow: 1;
+  background-color: #FFFFFF;
 }
 .nuestros-planes .plan.negocio {
   order: -1;
