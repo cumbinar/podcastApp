@@ -610,6 +610,7 @@ ul {
 .nuestros-planes .plan .precio {
   font-size: 2rem;
   text-align: center;
+  color: blueviolet;
 }
 .nuestros-planes .plan .listado li {
   text-align: center;
