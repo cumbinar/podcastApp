@@ -582,6 +582,7 @@ ul {
 .nuestros-planes {
   display: flex;
   flex-direction: column;
+  gap: 2rem;
 }
 @media (min-width: 768px) {
   .nuestros-planes {
@@ -667,7 +668,6 @@ ul {
   text-decoration: none;
   transition: background-color 0.3s ease;
   border: 1px solid #FFFFFF;
-  border-top: 2px solid #FFFFFF;
   margin-top: 2rem;
 }
 .boton-plan:hover {
@@ -679,6 +679,11 @@ ul {
   .boton-plan {
     width: auto;
     display: inline-block;
+  }
+}
+@media (min-width: 768px) {
+  .boton-plan {
+    display: block;
   }
 }
 /*# sourceMappingURL=app.css.map */
