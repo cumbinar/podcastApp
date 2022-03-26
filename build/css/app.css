@@ -598,6 +598,15 @@ ul {
   background-color: #FFFFFF;
   padding: 16rem 4rem 4rem 4rem;
 }
+@media (min-width: 768px) {
+  .nuestros-planes .plan {
+    transition-property: transform;
+    transition-duration: 300ms;
+  }
+  .nuestros-planes .plan:hover {
+    transform: scale(1.1);
+  }
+}
 .nuestros-planes .plan .precio {
   font-size: 2rem;
   text-align: center;
@@ -628,6 +637,7 @@ ul {
     order: unset;
     margin-top: -5rem;
     margin-bottom: -5rem;
+    border-radius: 2rem;
   }
 }
 .nuestros-planes .plan.pro {
