@@ -31,6 +31,17 @@
             text-align: center;
         }
 
+        .listado{
+            li{
+               text-align: center; 
+               margin-bottom: 1.5rem;
+
+               &:last-of-type{
+                   margin-bottom: 0;
+               }
+            }
+        }
+
         &.inicio{
             @include m.iconoBg('../img/icono_inicio.svg');
         }
