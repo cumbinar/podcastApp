@@ -595,6 +595,7 @@ ul {
 }
 .nuestros-planes .plan .precio {
   font-size: 2rem;
+  text-align: center;
 }
 .nuestros-planes .plan.inicio {
   background-image: url("../img/icono_inicio.svg");
