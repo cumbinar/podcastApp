@@ -591,6 +591,7 @@ ul {
 .nuestros-planes .plan {
   flex-grow: 1;
   background-color: #FFFFFF;
+  padding: 16rem 4rem 4rem 4rem;
 }
 .nuestros-planes .plan.negocio {
   order: -1;
