@@ -593,17 +593,21 @@ ul {
   background-color: #FFFFFF;
   padding: 16rem 4rem 4rem 4rem;
 }
+.nuestros-planes .plan .precio {
+  font-size: 2rem;
+}
 .nuestros-planes .plan.inicio {
   background-image: url("../img/icono_inicio.svg");
   background-repeat: no-repeat;
-  background-position: top center;
+  background-position: 50% 2.5rem;
   background-size: 10rem;
 }
 .nuestros-planes .plan.negocio {
+  background-color: #84d9bc;
   order: -1;
   background-image: url("../img/icono_negocio.svg");
   background-repeat: no-repeat;
-  background-position: top center;
+  background-position: 50% 2.5rem;
   background-size: 10rem;
 }
 @media (min-width: 768px) {
@@ -614,7 +618,7 @@ ul {
 .nuestros-planes .plan.pro {
   background-image: url("../img/icono_pro.svg");
   background-repeat: no-repeat;
-  background-position: top center;
+  background-position: 50% 2.5rem;
   background-size: 10rem;
 }
 

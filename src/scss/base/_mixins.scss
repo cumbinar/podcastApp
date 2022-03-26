@@ -63,13 +63,11 @@
 @mixin iconoBg($url) {
     background-image: url($url);
     background-repeat: no-repeat;
-    background-position: top center;
+    background-position: 50% 2.5rem;
     background-size: 10rem;
 }
 
 @mixin headingBorder($colorTexto, $colorLinea){
-
-
     font-size: 3.6 rem;
     display: inline-block;
     margin-top: 5rem;
