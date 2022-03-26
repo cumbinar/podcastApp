@@ -577,6 +577,7 @@ ul {
 }
 .planes .descripcion {
   color: #FFFFFF;
+  text-align: center;
 }
 
 .nuestros-planes {
@@ -587,6 +588,9 @@ ul {
 @media (min-width: 768px) {
   .nuestros-planes {
     flex-direction: row;
+    max-width: 80rem;
+    margin-inline: auto;
+    margin-block-start: 10rem;
   }
 }
 .nuestros-planes .plan {
@@ -622,6 +626,8 @@ ul {
 @media (min-width: 768px) {
   .nuestros-planes .plan.negocio {
     order: unset;
+    margin-top: -5rem;
+    margin-bottom: -5rem;
   }
 }
 .nuestros-planes .plan.pro {
