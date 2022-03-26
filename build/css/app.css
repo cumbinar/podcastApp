@@ -641,7 +641,7 @@ ul {
   color: #313c4e;
   text-decoration: none;
   transition: background-color 0.3s ease;
-  border: 1px solid #09a8f1;
+  border: 1px solid #FFFFFF;
 }
 .boton-primario:hover {
   cursor: pointer;
@@ -650,6 +650,33 @@ ul {
 }
 @media (min-width: 768px) {
   .boton-primario {
+    width: auto;
+    display: inline-block;
+  }
+}
+
+.boton-plan {
+  background-color: #84d9bc;
+  font-size: 2rem;
+  padding: 1.2rem 4rem;
+  font-weight: normal;
+  display: block;
+  width: 100%;
+  text-align: center;
+  color: #313c4e;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  border: 1px solid #FFFFFF;
+  border-top: 2px solid #FFFFFF;
+  margin-top: 2rem;
+}
+.boton-plan:hover {
+  cursor: pointer;
+  background-color: #5dcda7;
+  color: white;
+}
+@media (min-width: 768px) {
+  .boton-plan {
     width: auto;
     display: inline-block;
   }
