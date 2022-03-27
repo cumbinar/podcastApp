@@ -648,6 +648,10 @@ ul {
   background-size: 10rem;
 }
 
+.testimoniales {
+  background-color: red;
+}
+
 .boton-primario {
   background-color: #84d9bc;
   font-size: 2rem;
