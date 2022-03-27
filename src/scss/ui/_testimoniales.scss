@@ -2,5 +2,11 @@
 @use 'base/mixins' as m;
 
 .testimoniales{
-    background-color: red;
+    @include m.tablet { 
+        @include m.grid(5, 4rem);
+
+        .imagen{
+            grid-column: 1 / 3;
+        }
+     }
 }
