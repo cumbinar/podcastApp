@@ -725,6 +725,21 @@ ul {
   margin-bottom: 0;
 }
 
+.footer {
+  background-color: #313c4e;
+  color: #FFFFFF;
+}
+.footer .footer-grid {
+  padding: 5rem 0;
+}
+@media (min-width: 768px) {
+  .footer .footer-grid {
+    display: grid;
+    gap: 4rem;
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
 .boton-primario {
   background-color: #84d9bc;
   font-size: 2rem;
