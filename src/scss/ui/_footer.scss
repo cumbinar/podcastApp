@@ -30,6 +30,23 @@
         h3{
             color: v.$primario;
             text-align: left;
+            @include m.tablet { 
+                margin-bottom: 5rem;
+             }
+
+        }
+    }
+
+    nav{
+        
+        
+        a{
+            display: block;
+            color: v.$blanco;
+            margin-bottom: 1rem;
+            &:hover{
+                color: v.$primario;
+            }
         }
     }
 }

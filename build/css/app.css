@@ -760,6 +760,19 @@ ul {
   color: #84d9bc;
   text-align: left;
 }
+@media (min-width: 768px) {
+  .footer .footer-widget h3 {
+    margin-bottom: 5rem;
+  }
+}
+.footer nav a {
+  display: block;
+  color: #FFFFFF;
+  margin-bottom: 1rem;
+}
+.footer nav a:hover {
+  color: #84d9bc;
+}
 
 .boton-primario {
   background-color: #84d9bc;
